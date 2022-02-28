@@ -1,0 +1,53 @@
+{
+  "name": "AspireDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.16.1",
+    "@react-navigation/bottom-tabs": "^6.2.0",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/stack": "^6.1.1",
+    "axios": "^0.26.0",
+    "react": "17.0.2",
+    "react-native": "0.67.3",
+    "react-native-config": "^1.4.5",
+    "react-native-gesture-handler": "^2.2.0",
+    "react-native-paper": "^4.11.2",
+    "react-native-responsive-fontsize": "^0.5.1",
+    "react-native-safe-area-context": "^4.0.1",
+    "react-native-screens": "^3.12.0",
+    "react-native-size-matters": "^0.4.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^9.1.0",
+    "react-navigation": "^4.4.4",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^17.0.39",
+    "@types/react-native": "^0.66.16",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.68.0",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.5.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
