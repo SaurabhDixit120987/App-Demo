@@ -27,7 +27,7 @@ const SpendingLimitProgressBar = ({}: SpendingLimitProgressBarProps) => {
             typography.h4_c1,
             {color: colors.text.tertiary},
           ]}>
-          ${usage ? usage?.spendings : 0}{' '}
+          ${usage ? 2000 : 0}{' '}
           <Text style={{color: colors.text.secondary}}>
             | ${usage ? usage?.usageLimit : 0}
           </Text>
@@ -39,7 +39,7 @@ const SpendingLimitProgressBar = ({}: SpendingLimitProgressBarProps) => {
             styles.progressBar,
             {
               width: `${Math.ceil(
-                ((usage ? parseInt(usage?.spendings) : 1) /
+                ((usage ? 2000 : 1) /
                   (usage ? parseInt(usage?.usageLimit) : 1)) *
                   100,
               )}%`,
